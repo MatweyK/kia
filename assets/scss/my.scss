@@ -1,0 +1,43 @@
+
+
+@keyframes test {
+ 0% {
+   top:100px;
+   left:300px;
+   transform: rotate(360deg);
+
+
+    }
+ 25% {
+   top: 300px;
+   left: 600px;
+   transform: rotate(60deg) scale(1.5) skew(10deg, 20deg);
+ }
+
+
+   50% {
+    top:600px;
+    left:300px;
+    transform: rotate(240deg) scale(1.1) skew(20deg, 60deg);
+
+  }
+  75% {
+    top:300px;
+    left:100px;
+    transform: rotate(120deg) scale(0.5) skew(10deg, 20deg);
+
+  }
+  100% {
+    top:100px;
+    left:300px;
+    transform: rotate(360deg);
+  }
+}
+
+#test {
+  border: 1px solid #000;
+  width: 50px;
+  position: absolute;
+  animation: test 4s infinite alternate ;
+}
+
