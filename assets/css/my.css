@@ -1,60 +1,131 @@
-@-webkit-keyframes test {
-  0% {
-    top: 100px;
-    left: 300px;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); }
-  25% {
-    top: 300px;
-    left: 600px;
-    -webkit-transform: rotate(60deg) scale(1.5) skew(10deg, 20deg);
-    transform: rotate(60deg) scale(1.5) skew(10deg, 20deg); }
-  50% {
-    top: 600px;
-    left: 300px;
-    -webkit-transform: rotate(240deg) scale(1.1) skew(20deg, 60deg);
-    transform: rotate(240deg) scale(1.1) skew(20deg, 60deg); }
-  75% {
-    top: 300px;
-    left: 100px;
-    -webkit-transform: rotate(120deg) scale(0.5) skew(10deg, 20deg);
-    transform: rotate(120deg) scale(0.5) skew(10deg, 20deg); }
-  100% {
-    top: 100px;
-    left: 300px;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+body {
+  margin: 0;
+  padding: 0; }
 
-@keyframes test {
-  0% {
-    top: 100px;
-    left: 300px;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); }
-  25% {
-    top: 300px;
-    left: 600px;
-    -webkit-transform: rotate(60deg) scale(1.5) skew(10deg, 20deg);
-    transform: rotate(60deg) scale(1.5) skew(10deg, 20deg); }
-  50% {
-    top: 600px;
-    left: 300px;
-    -webkit-transform: rotate(240deg) scale(1.1) skew(20deg, 60deg);
-    transform: rotate(240deg) scale(1.1) skew(20deg, 60deg); }
-  75% {
-    top: 300px;
-    left: 100px;
-    -webkit-transform: rotate(120deg) scale(0.5) skew(10deg, 20deg);
-    transform: rotate(120deg) scale(0.5) skew(10deg, 20deg); }
-  100% {
-    top: 100px;
-    left: 300px;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+ul li {
+  list-style: none; }
 
-#test {
-  border: 1px solid #000;
-  width: 50px;
-  position: absolute;
-  -webkit-animation: test 4s infinite alternate;
-  animation: test 4s infinite alternate; }
+a {
+  text-decoration: none; }
+
+.top-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom: 1px solid #999999; }
+
+.top-nav-list {
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px; }
+
+.top-nav-list-item {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #999;
+  margin: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #999; }
+  .top-nav-list-item a {
+    color: #999999; }
+  .top-nav-list-item span {
+    color: red; }
+
+.search {
+  width: 100px;
+  height: 10px;
+  border: none;
+  padding: 0;
+  margin: 5px;
+  display: inline-block; }
+
+.search-form {
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 1px 11px;
+  margin: 5px; }
+
+.search-button {
+  border: none;
+  background-color: white;
+  background-image: url("../img/search.png");
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background-size: cover;
+  padding: 0;
+  margin: 0; }
+
+.kia-logo {
+  width: 75px;
+  height: 40px; }
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.main-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.main-nav-list-item {
+  margin: 5px;
+  font-size: 16px;
+  padding: 0 10px; }
+
+.phone {
+  font-size: 17px;
+  padding: 3px 8px 3px 25px;
+  background-color: #bb162b;
+  display: inline-block;
+  border-radius: 10px; }
+  .phone a {
+    color: #fff; }
+
+.stonic-menu {
+  background-color: #bb162b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 49px; }
+
+.stonic-logo {
+  width: 190px; }
+
+.stonic-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.stonic-nav-list-item {
+  margin: 5px;
+  color: #dd8b95;
+  padding: 0 5px; }
+
+.stonic-nav-list-item-active {
+  color: #fff; }
+
+.user-actions {
+  background-image: url("../img/car-nav.jpg");
+  background-size: cover;
+  background-position: center; }
