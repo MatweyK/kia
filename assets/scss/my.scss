@@ -236,7 +236,7 @@ h2 {
   position: absolute;
   top: 10%;
   left: 15%;
-  text-shadow: rgba(0,0,0,1) 0 0 5px!important;
+  text-shadow: rgba(0,0,0,1) 0 0 5px;
   font-weight: bold;
 }
 
@@ -247,7 +247,7 @@ h2 {
   top: 25%;
   left: 15%;
   font-size: 16px;
-  text-shadow: rgba(0,0,0,1) 0 0 5px!important;
+  text-shadow: rgba(0,0,0,1) 0 0 5px;
   font-weight: bold;
 }
 
@@ -401,24 +401,27 @@ h2 {
 }
 
 .exterier-main {
+  color: #fff;
   position: relative;
+  text-shadow: rgba(0,0,0,1) 0 0 5px;
+
   h2 {
     position: absolute;
 
     top: 3%;
-    left: 5%;
+    left: 25%;
   }
   b {
     position: absolute;
-    top: 25%;
-    left: 5%;
-    width: 960px;
+    top: 20%;
+    left: 25%;
+    width: 50%;
   }
   p {
     position: absolute;
-    top: 35%;
-    left: 5%;
-    width: 960px;
+    top: 25%;
+    left: 25%;
+    width: 50%;
   }
 }
 
@@ -432,19 +435,110 @@ h2 {
 }
 
 .exterier-galery-item {
+  flex-grow: 1;
+  overflow: hidden;
   position: relative;
   color: #fff;
   text-shadow: rgba(0,0,0,1) 0 0 5px;
-  width: 33%;
+  width: 33.2%;
   border-top: 1px solid #fff;
-  border-right: 2px solid #fff;
+  border-right: 1px solid #fff;
   border-collapse: collapse;
   img {
     width: 100%;
+    height: 100%;
+    transition: transform 0.3s linear;
+
   }
   h3 {
     position: absolute;
     top: 3%;
     left: 3%;
+    width: 80%;
   }
+
+
+}
+.exterier-galery-item:hover {
+  img {
+    transform:scale(1.1);
+
+  }
+}
+
+.exterier-slider {
+  margin: 0;
+  padding: 0;
+}
+
+//interier
+
+.interier-main {
+  color: #fff;
+  position: relative;
+  text-shadow: rgba(0,0,0,1) 0 0 5px;
+
+  h2 {
+    position: absolute;
+
+    top: 3%;
+    left: 25%;
+  }
+  b {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+  }
+  p {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+  }
+}
+.interier-main-img {
+
+  width: 100%;
+}
+.interier-galery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interier-galery-item {
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  text-shadow: rgba(0,0,0,1) 0 0 5px;
+  width: 24%;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-collapse: collapse;
+  img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s linear;
+
+  }
+  h3 {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 80%;
+  }
+
+
+}
+.interier-galery-item:hover {
+  img {
+    transform:scale(1.1);
+
+  }
+}
+
+.interier-slider {
+  margin: 0;
+  padding: 0;
 }
