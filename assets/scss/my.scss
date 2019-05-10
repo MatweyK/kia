@@ -220,8 +220,7 @@ h2 {
 
 .main-info-slider-first {
   position: relative;
-  top: -35px;
-  margin-bottom: -111px;
+
 }
 
 .main-info-img {
@@ -230,22 +229,22 @@ h2 {
 }
 
 .main-info-heading {
-  width: 75%;
+  width: 50%;
   font-size: 40px;
-  color: #f5284e;
+  color: #f9f9f9;
   position: absolute;
   top: 10%;
-  left: 15%;
+  left: 25%;
   text-shadow: rgba(0,0,0,1) 0 0 5px;
   font-weight: bold;
 }
 
 .main-info-slogan {
-  width: 75%;
-  color: #ffd07b;
+  width: 50%;
+  color: #f9f9f9;
   position: absolute;
   top: 25%;
-  left: 15%;
+  left: 25%;
   font-size: 16px;
   text-shadow: rgba(0,0,0,1) 0 0 5px;
   font-weight: bold;
@@ -254,7 +253,7 @@ h2 {
 .main-buton-left {
 
   position: absolute;
-  bottom: 14%;
+  bottom: 0.5%;
   left: 0;
   color: #fff;
   padding: 66px 20px 15px 20px;
@@ -276,7 +275,7 @@ h2 {
 .main-buton-right {
 
   position: absolute;
-  bottom: 14%;
+  bottom: 0.5%;
   right: 0;
   color: #fff;
   padding: 66px 20px 15px 20px;
@@ -297,7 +296,7 @@ h2 {
 
 .slider-radiobuttons {
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   left: 45%;
   display: flex;
 }
@@ -323,6 +322,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 0;
   background-color: white;
 
 
