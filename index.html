@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="assets/css/my.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css">
   <title>Document</title>
 </head>
 <body>
@@ -58,7 +60,7 @@
   </div>
 </header>
 <main>
-  <section class="main_info">
+  <section class="main_info owl-carousel">
     <div class="main-info-slider-first">
       <h1 class="visually-hidden">KIA Stonic</h1>
       <img class="main-info-img" src="assets/img/car-kia.jpg" alt="Kia car main image">
@@ -70,10 +72,15 @@
         придбань у сегменті.</p>
       <a class="main-buton-left" href=""><span></span>360o VR</a>
       <a class="main-buton-right" href=""><span></span>360o VR</a>
-      <ul class="slider-radiobuttons">
-        <li class="slider-radiobutton-first"><a href="#"></a></li>
-        <li class="slider-radiobutton-second"><a href="#"></a></li>
-      </ul>
+
+    </div>
+    <div class="main-info-slider-second">
+      <h1 class="visually-hidden">Lorem ipsum dolor sit amet</h1>
+      <img class="main-info-img-two" src="assets/img/kia-yb-suv-exterior-overview-01-w.jpg" alt="Kia car main image">
+      <b class="main-info-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma</b>
+      <p class="main-info-slogan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <a class="main-buton-left" href=""><span></span>360o VR</a>
+      <a class="main-buton-right" href=""><span></span>360o VR</a>
     </div>
 
    </section>
@@ -199,6 +206,32 @@
 
 </main>
 
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+ 
 
+<script src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  $(".owl-carousel").owlCarousel(
+      {
+        items:1,
+        nav:true
+      }
+    );
+});
+  //onresize, onload calculate height
+  window.addEventListener("load", calculateHeight);
+  window.addEventListener("resize", calculateHeight);
+  function calculateHeight() {
+    var width = document.body.offsetWidth;
+    var images = document.querySelectorAll(".owl-carousel img");
+    for (var i = 0; i < images.length; i++) {
+      images[i].style.height = width*0.6 + 'px';
+    }
+  }
+</script>
 </body>
 </html>

@@ -50,7 +50,6 @@ h2 {
   border-bottom: 1px solid #ebebeb;
   background-color: #f9f9f9;
   position: relative;
-  z-index: 1000;
   font-weight: bold; }
 
 .top-nav-list {
@@ -113,8 +112,7 @@ h2 {
   -ms-flex-align: center;
   align-items: center;
   background-color: #f9f9f9;
-  position: relative;
-  z-index: 1000; }
+  position: relative; }
 
 .main-nav-list {
   display: -webkit-box;
@@ -150,8 +148,7 @@ h2 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  position: relative;
-  z-index: 1000; }
+  position: relative; }
 
 .stonic-logo {
   height: 49px;
@@ -180,6 +177,28 @@ h2 {
   padding: 0 30px;
   border-right: 1px solid #920510;
   border-left: 1px solid #920510; }
+
+.main_info {
+  width: 100%; }
+  .main_info img {
+    height: 1050px; }
+
+.owl-dots {
+  position: absolute;
+  bottom: 5%;
+  left: 47%; }
+
+body .owl-carousel button.owl-dot {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+  border: 2px solid #cbcbcb;
+  border-radius: 10px;
+  background: #fff; }
+
+body .owl-carousel button.active {
+  background: #bb162b;
+  border-color: #880c1c; }
 
 .main-info-slider-first {
   position: relative; }
@@ -243,14 +262,6 @@ h2 {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid white; }
-
-.slider-radiobuttons {
-  position: absolute;
-  bottom: 5%;
-  left: 45%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
 
 .slider-radiobutton-first a {
   width: 20px;
