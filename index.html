@@ -5,9 +5,11 @@
   <link rel="stylesheet" href="assets/css/my.css">
   <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css">
+
+
   <title>Document</title>
 </head>
-<body>
+<body class="pageWrapper">
 <header>
   <div class="top-menu">
     <nav class="top-nav">
@@ -70,8 +72,7 @@
         Завдяки чудовим ходовим якостям задоволення за кермом стає реальним навіть на далеких від ідеалу
         українських дорогах. Просторий салон та багате опційне наповнення роблять його одним з найвигідніших
         придбань у сегменті.</p>
-      <a class="main-buton-left" href=""><span></span>360o VR</a>
-      <a class="main-buton-right" href=""><span></span>360o VR</a>
+
 
     </div>
     <div class="main-info-slider-second">
@@ -79,8 +80,7 @@
       <img class="main-info-img-two" src="assets/img/kia-yb-suv-exterior-overview-01-w.jpg" alt="Kia car main image">
       <b class="main-info-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma</b>
       <p class="main-info-slogan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      <a class="main-buton-left" href=""><span></span>360o VR</a>
-      <a class="main-buton-right" href=""><span></span>360o VR</a>
+
     </div>
 
    </section>
@@ -93,19 +93,33 @@
         <li class="characteristics-item characteristics-item-fourth characteristics-odd"><p>ГАРАНТІЯ 5 РОКІВ<span>або 150 000 км. </span></li>
       </ul>
     </div>
-    <div class="exterier-main">
-      <img class="exterier-main-img" src="assets/img/kia-yb-suv-exterior-overview-01-w.jpg" alt="kia exterier main image">
-      <h2 class="exterier-heading">ЕКСТЕР'ЄР</h2>
-      <b class="exterier-main-slogan">Автомобіль, який привертає увагу</b>
-      <p class="exterier-main-info">Яскравий молодіжний дизайн, розроблений у франкфуртській студії дизайну Kia,
-        не залишить байдужими ані власника
-         авто, ані оточуючих.</p>
-         <ul class="exterier-slider">
-           <li ><a class="exterier-slider-first" href="#"></a></li>
-           <li ><a class="exterier-slider-second" href="#"></a></li>
-           <li ><a class="exterier-slider-third" href="#"></a></li>
-         </ul>
-    </div>
+
+
+
+      <div class=" exterier-main ">
+        <img class="exterier-main-img" src="assets/img/kia-yb-suv-exterior-overview-01-w.jpg" alt="kia exterier main image">
+        <h2 class="exterier-heading">ЕКСТЕР'ЄР</h2>
+        <b class="exterier-main-slogan">Автомобіль, який привертає увагу</b>
+        <p class="exterier-main-info">Яскравий молодіжний дизайн, розроблений у франкфуртській студії дизайну Kia,
+          не залишить байдужими ані власника
+          авто, ані оточуючих.</p>
+
+      </div>
+      <div class=" exterier-second ">
+        <img class="exterier-second-img" src="assets/img/kia-yb-suv-exterior-overview-01-w.jpg" alt="kia exterier main image">
+        <h2 class="exterier-second-heading">2</h2>
+        <b class="exterier-second-main-slogan">Lorem ipsum dolor sit amet.</b>
+        <p class="exterier-second-main-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum ipsam iusto laudantium,
+          necessitatibus perspiciatis reprehenderit suscipit velit veritatis voluptas!</p>
+
+      </div>
+
+
+
+
+
+
+
 
        <div class="exterier-galery">
          <div class="exterier-galery-item">
@@ -218,7 +232,10 @@
   $(".owl-carousel").owlCarousel(
       {
         items:1,
-        nav:true
+        nav:true,
+
+          slideTransition:'linear'
+
       }
     );
 });
@@ -233,5 +250,6 @@
     }
   }
 </script>
+
 </body>
 </html>

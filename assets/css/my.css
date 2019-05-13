@@ -200,6 +200,30 @@ body .owl-carousel button.active {
   background: #bb162b;
   border-color: #880c1c; }
 
+body .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+body .owl-nav .owl-prev span {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: #0e0b0b9c; }
+
+body .owl-nav .owl-next span {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 50px;
+  background: #0e0b0b9c; }
+
 .main-info-slider-first {
   position: relative; }
 
@@ -262,22 +286,6 @@ body .owl-carousel button.active {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid white; }
-
-.slider-radiobutton-first a {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-image: url("../img/radiobutton-unchecked-md.png");
-  background-size: cover;
-  margin: 3px; }
-
-.slider-radiobutton-second a {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-image: url("../img/radiobutton-unchecked-md.png");
-  background-size: cover;
-  margin: 3px; }
 
 .characteristics {
   position: relative;
@@ -375,6 +383,28 @@ body .owl-carousel button.active {
     width: 50%; }
 
 .exterier-main-img {
+  width: 100%; }
+
+.exterier-second {
+  color: #fff;
+  position: relative;
+  text-shadow: black 0 0 5px; }
+  .exterier-second h2 {
+    position: absolute;
+    top: 3%;
+    left: 25%; }
+  .exterier-second b {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%; }
+  .exterier-second p {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%; }
+
+.exterier-second-img {
   width: 100%; }
 
 .exterier-galery {

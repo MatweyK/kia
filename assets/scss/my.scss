@@ -246,6 +246,30 @@ body .owl-carousel button.active {
   border-color: #880c1c;
 }
 
+body .owl-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+body .owl-nav .owl-prev span {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: #0e0b0b9c;
+}
+
+
+body .owl-nav .owl-next span {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 50px;
+  background: #0e0b0b9c;
+}
+
 .main-info-slider-first {
   position: relative;
 
@@ -323,22 +347,6 @@ body .owl-carousel button.active {
 }
 
 
-.slider-radiobutton-first a {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-image: url("../img/radiobutton-unchecked-md.png");
-  background-size: cover;
-  margin: 3px;
-}
-.slider-radiobutton-second a {
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  background-image: url("../img/radiobutton-unchecked-md.png");
-  background-size: cover;
-  margin: 3px;
-}
 
 .characteristics {
   position: relative;
@@ -422,7 +430,7 @@ body .owl-carousel button.active {
   top: 6%;
   left: 45%;
 }
-
+//exterier first item
 .exterier-main {
   color: #fff;
   position: relative;
@@ -452,6 +460,39 @@ body .owl-carousel button.active {
 
   width: 100%;
 }
+
+//exterier second item
+
+.exterier-second {
+  color: #fff;
+  position: relative;
+  text-shadow: rgba(0,0,0,1) 0 0 5px;
+
+  h2 {
+    position: absolute;
+
+    top: 3%;
+    left: 25%;
+  }
+  b {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+  }
+  p {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+  }
+}
+
+.exterier-second-img {
+
+  width: 100%;
+}
+
 .exterier-galery {
   display: flex;
   flex-wrap: wrap;
