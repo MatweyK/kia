@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="assets/css/my.css">
   <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+
 
 
   <title>Document</title>
@@ -95,7 +97,7 @@
     </div>
 
 
-
+    <div class="slider" >
       <div class=" exterier-main ">
         <img class="exterier-main-img" src="assets/img/kia-yb-suv-exterior-overview-01-w.jpg" alt="kia exterier main image">
         <h2 class="exterier-heading">ЕКСТЕР'ЄР</h2>
@@ -113,12 +115,7 @@
           necessitatibus perspiciatis reprehenderit suscipit velit veritatis voluptas!</p>
 
       </div>
-
-
-
-
-
-
+    </div>
 
 
        <div class="exterier-galery">
@@ -158,11 +155,7 @@
       <p class="interier-main-info">Ретельно прдуманий та яскраво виконаний інтер'єр Kia Stonic не тільки радує око,
         але й дозволяє із комфортом влаштуватися людям різної комплекції, забезпечуючи максимум контролю над кросовером
         та задоволення від подорожей авто, ані оточуючих.</p>
-      <ul class="interier-slider">
-        <li ><a class="interier-slider-first" href="#"></a></li>
-        <li ><a class="interier-slider-second" href="#"></a></li>
-        <li ><a class="interier-slider-third" href="#"></a></li>
-      </ul>
+
     </div>
 
     <div class="interier-galery">
@@ -217,6 +210,46 @@
 
     </div>
   </section>
+  <section class="dynamic">
+    <div class="dynamic-main">
+      <img class="dynamic-img" src="assets/img/kia-yb-performance-01-w.jpg" alt="kia dynamic image">
+      <h2 class="dynamic-heading">ДИНАМІКА</h2>
+      <b class="dynamic-main-slogan">Пориньте у світ азартного драйву</b>
+      <p class="dynamic-main-info">В Україні Kia Stonic пропонується із двома бензиновими атмосферними двигунами.
+        100-сильний 1.4-літровий силовий агрегат є оптимальним вибором з точки зору динаміки та економічності</p>
+    </div>
+    <div class="dynamic-galery">
+      <div class="dynamic-galery-item">
+        <a href="#">
+          <img src="assets/img/kia-yb-performance-thumb-01-w.jpg" alt="dynamic-galery-item">
+          <h3>Механічна коробка передач</h3>
+          <p>В залежності від двигуна кросовер Stonic може бути оснащений  5-ти або 6-ступінчастою механічною коробкою передач
+          із оптимально підібраними передавальними числами та прецизійним механізмом вибору передач</p></a>
+
+      </div>
+      <div class="dynamic-galery-item">
+        <a href="#">
+          <img src="assets/img/kia-yb-performance-thumb-01-w.jpg" alt="dynamic-galery-item">
+          <h3>Механічна коробка передач</h3>
+          <p>В залежності від двигуна кросовер Stonic може бути оснащений  5-ти або 6-ступінчастою механічною коробкою передач
+          із оптимально підібраними передавальними числами та прецизійним механізмом вибору передач</p></a>
+
+      </div>
+    </div>
+  </section>
+  <section class="safety">
+    <img src="assets/img/kia-yb-safety-01-w (1).jpg" alt="">
+    <h2 class="safety-heading">БЕЗПЕКА</h2>
+    <b class="safety-slogan">Безпека - наш головний пріоритет</b>
+    <p class="safety-info">Захист водія і пасажирів - наш ключовий пріоритет. Stonic спроектовано для того,
+       щоб допомогти водієві уникнути аварійної ситуації та забезпечити максимальний захист в разі потреби</p>
+
+
+  </section>
+  <section class="safety-galery">
+    <img src="" alt="">
+
+  </section>
 
 </main>
 
@@ -224,7 +257,7 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
- 
+
 
 <script src="assets/js/owl.carousel.min.js"></script>
 <script type="text/javascript">
@@ -249,6 +282,22 @@
       images[i].style.height = width*0.6 + 'px';
     }
   }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.slider').slick({
+      vertical: true,
+    infinite: false,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+
+});
+
+
+
 </script>
 
 </body>

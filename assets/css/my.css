@@ -443,10 +443,6 @@ body .owl-nav .owl-next span {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
-.exterier-slider {
-  margin: 0;
-  padding: 0; }
-
 .interier-main {
   color: #fff;
   position: relative;
@@ -505,6 +501,104 @@ body .owl-nav .owl-next span {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
-.interier-slider {
-  margin: 0;
-  padding: 0; }
+.dynamic-main {
+  color: #fff;
+  position: relative;
+  text-shadow: black 0 0 5px; }
+  .dynamic-main h2 {
+    position: absolute;
+    top: 3%;
+    left: 25%; }
+  .dynamic-main b {
+    font-size: 40px;
+    line-height: 44px;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%; }
+  .dynamic-main p {
+    font-family: 'KiaB';
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%; }
+  .dynamic-main img {
+    width: 100%; }
+
+.dynamic-galery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 5% auto 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.dynamic-galery-item {
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  text-shadow: black 0 0 5px;
+  width: 45%; }
+  .dynamic-galery-item h3 {
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: kiaM,Hevetica;
+    text-shadow: white 0 0 5px; }
+  .dynamic-galery-item p {
+    color: #000;
+    font-size: 13px;
+    margin-top: 10px;
+    text-shadow: white 0 0 5px; }
+  .dynamic-galery-item img {
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.3s linear;
+    transition: -webkit-transform 0.3s linear;
+    transition: transform 0.3s linear;
+    transition: transform 0.3s linear, -webkit-transform 0.3s linear; }
+
+.dynamic-galery-item:hover img {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03); }
+
+.safety {
+  color: #000;
+  position: relative; }
+  .safety h2 {
+    position: absolute;
+    width: 50%;
+    top: 5%;
+    left: 20%;
+    font-family: 'KiaB';
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: white 0 0 5px; }
+  .safety b {
+    position: absolute;
+    width: 50%;
+    top: 15%;
+    left: 20%;
+    width: 50%;
+    font-size: 40px;
+    line-height: 44px;
+    text-shadow: white 0 0 5px; }
+  .safety p {
+    position: absolute;
+    width: 50%;
+    top: 22%;
+    left: 20%;
+    width: 50%;
+    font-weight: bold;
+    font-family: 'KiaB';
+    font-size: 16px;
+    line-height: 20px; }
+  .safety img {
+    width: 100%; }
