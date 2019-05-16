@@ -407,6 +407,28 @@ body .owl-nav .owl-next span {
 .exterier-second-img {
   width: 100%; }
 
+.exterier-third {
+  color: #fff;
+  position: relative;
+  text-shadow: black 0 0 5px; }
+  .exterier-third h2 {
+    position: absolute;
+    top: 3%;
+    left: 25%; }
+  .exterier-third b {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%; }
+  .exterier-third p {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%; }
+
+.exterier-third-img {
+  width: 100%; }
+
 .exterier-galery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -602,3 +624,20 @@ body .owl-nav .owl-next span {
     line-height: 20px; }
   .safety img {
     width: 100%; }
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  left: 45%; }
+  .slick-dots li {
+    margin-right: 5px; }
+    .slick-dots li button {
+      border-radius: 15px;
+      background: #fff;
+      border: 2px solid #cbcbcb; }
+    .slick-dots li .slick-active button {
+      background: #bb162b;
+      border-color: #880c1c; }
