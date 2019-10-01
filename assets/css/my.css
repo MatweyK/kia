@@ -647,7 +647,7 @@ body .owl-nav .owl-next span {
     width: 60%;
     height: auto; }
 
-.actions-list-item-first::before {
+/* .actions-list-item-first::before {
   content: " ";
   width: 100px;
   height: 100px;
@@ -657,7 +657,7 @@ body .owl-nav .owl-next span {
   background-size: cover;
   position: absolute;
   top: 20%;
-  left: 10%; }
+  left: 10%; } */
 
 .slick-dots {
   display: -webkit-box;
